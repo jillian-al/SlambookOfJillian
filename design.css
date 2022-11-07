@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../this.jpg);
+    height: 82vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main
+{
+    max-width: fit-content;
+}
+
+.logo img
+{
+    position: relative;
+    top: 100px;
+    left: 865px;
+    height: 20vh;
+}
+
+.headline img
+{
+    position: relative;
+    top: 20px;
+    left: 350px;
+    height: 50vh;
+}
+
+.text 
+{
+    position: absolute;
+    font-size: 50px;
+    display: flex;
+    top: 41%;
+    left: 745px;
+    color: #fff;
+}
+
+.text2 
+{
+    position: absolute;
+    font-style: italic;
+    font-size: 15px;
+    display: flex;
+    top: 53%;
+    left: 870px;
+    color: #fff;
+}
+
+.text3
+{
+    position: absolute;
+    font-style: italic;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    margin-right: 765px;
+    top: 380px;
+    left: 725px;
+    color: rgb(0, 0, 0);
+    transform: rotate(-3deg);
+}
+
+.text4
+{
+    position: absolute;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    margin-right: 150px;
+    top: 570px;
+    left: 950px;
+    color: rgb(0, 0, 0);
+    transform: rotate(-2deg);
+}
+
+.text5
+{
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 20px;
+    top: 1970px;
+    left: 810px;
+}
+
+.text6
+{
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 20px;
+    top: 2562px;
+    left: 810px;
+}
+
+.text7
+{
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 20px;
+    top: 3135px;
+    left: 770px;
+}
+
+.style img
+{
+    position: relative;
+    top: 150px;
+    left: 350px;
+    height: 70vh;
+}
+
+.style1 img
+{
+    position: relative;
+    top: -110px;
+    left: 205px;
+    width: 80%;
+}
+
+.style2 img
+{
+    position: relative;
+    top: 0x;
+    left: 0px;
+    width: 100%;
+}
+
+.tabs
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50px auto;
+    padding: 50px;
+}
+
+.tabs input[type="radio"]
+{
+    display: none;
+}
+
+.tabs input[type="radio"]:checked + label + .MainTab
+{
+    display: block;
+}
+
+.tabs input[type="radio"]:checked + label 
+{
+    background: rgba(255, 255, 255, 0.637);
+    color: rgb(59, 11, 47);
+}
+
+.tabs label
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    position: relative;
+    top: -80px;
+    left: 600px;
+    background: rgb(163, 74, 141);
+    font-weight: bold;
+    z-index: 3;
+}
+
+.tabs .MainTab
+{
+    position: absolute;
+    top: 750px;
+    width: 95%;
+    height: 3400px;
+    background: url(../bg.png);
+    order: 1;
+    display: none;
+    z-index: 3;
+}
